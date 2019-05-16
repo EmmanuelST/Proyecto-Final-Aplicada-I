@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyectos_Final.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,18 @@ namespace Proyectos_Final
         private void RegistroToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRegistroUsuario frmRegistroUsuario = new frmRegistroUsuario();
+            frmRegistroUsuario.MdiParent = this;
+            frmRegistroUsuario.Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
