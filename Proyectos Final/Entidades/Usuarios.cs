@@ -12,7 +12,7 @@ namespace Proyectos_Final.Entidades
         [Key]
         public int id { get; set; }
         public string Nombre { get; set; }
-        public string Direccion { get; set; }
+        public string Email { get; set; }
         public int NivelUsuario { get; set; }
         public string Usuario { get; set; }
         public string Clave { get; set; }
@@ -22,7 +22,7 @@ namespace Proyectos_Final.Entidades
         {
             id = 0;
             Nombre = string.Empty;
-            Direccion = string.Empty;
+            Email = string.Empty;
             NivelUsuario = 0;
             Usuario = string.Empty;
             Clave = string.Empty;
