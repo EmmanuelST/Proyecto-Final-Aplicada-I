@@ -16,5 +16,10 @@ namespace Proyectos_Final
         {
             InitializeComponent();
         }
+
+        private void RegistroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
