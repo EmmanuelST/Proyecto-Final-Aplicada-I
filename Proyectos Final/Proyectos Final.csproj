@@ -113,5 +113,8 @@
   <ItemGroup>
     <None Include="Resources\xmag_search_find_export_locate_5984.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DAL\Script\Script.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
