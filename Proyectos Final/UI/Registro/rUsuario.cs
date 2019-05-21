@@ -61,7 +61,7 @@ namespace Proyectos_Final.UI
         {
             Usuarios usuario = new Usuarios();
 
-            usuario.UsuarioID = Convert.ToInt32(CodigonumericUpDown.Value);
+            usuario.UsuarioId = Convert.ToInt32(CodigonumericUpDown.Value);
             usuario.Nombre = NombretextBox.Text;
             usuario.Email = EmailtextBox.Text;
             usuario.NivelUsuario = Convert.ToInt32(NivelUsuarionumericUpDown.Value);
@@ -171,7 +171,7 @@ namespace Proyectos_Final.UI
 
         private void LlenarCampos(Usuarios usuario)
         {
-            CodigonumericUpDown.Value = usuario.UsuarioID;
+            CodigonumericUpDown.Value = usuario.UsuarioId;
             NombretextBox.Text = usuario.Nombre;
             EmailtextBox.Text = usuario.Email;
             NivelUsuarionumericUpDown.Value = usuario.NivelUsuario;

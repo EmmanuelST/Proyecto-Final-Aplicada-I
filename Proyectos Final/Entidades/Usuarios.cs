@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Proyectos_Final.Entidades
 {
-    class Usuarios
+    public class Usuarios
     {
         [Key]
-        public int UsuarioID { get; set; }
+        public int UsuarioId { get; set; }
         public string Nombre { get; set; }
         public string Email { get; set; }
         public int NivelUsuario { get; set; }
@@ -20,7 +20,7 @@ namespace Proyectos_Final.Entidades
 
         public Usuarios()
         {
-            UsuarioID = 0;
+            UsuarioId = 0;
             Nombre = string.Empty;
             Email = string.Empty;
             NivelUsuario = 0;

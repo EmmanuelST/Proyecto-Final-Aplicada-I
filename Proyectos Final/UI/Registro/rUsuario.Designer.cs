@@ -208,9 +208,9 @@
             // 
             this.Eliminarbutton.Image = global::Proyectos_Final.Properties.Resources.borrar_img;
             this.Eliminarbutton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Eliminarbutton.Location = new System.Drawing.Point(369, 202);
+            this.Eliminarbutton.Location = new System.Drawing.Point(268, 278);
             this.Eliminarbutton.Name = "Eliminarbutton";
-            this.Eliminarbutton.Size = new System.Drawing.Size(75, 62);
+            this.Eliminarbutton.Size = new System.Drawing.Size(75, 56);
             this.Eliminarbutton.TabIndex = 14;
             this.Eliminarbutton.Text = "Eliminar";
             this.Eliminarbutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -221,9 +221,9 @@
             // 
             this.Nuevobutton.Image = global::Proyectos_Final.Properties.Resources.nuevo_img;
             this.Nuevobutton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Nuevobutton.Location = new System.Drawing.Point(369, 131);
+            this.Nuevobutton.Location = new System.Drawing.Point(153, 278);
             this.Nuevobutton.Name = "Nuevobutton";
-            this.Nuevobutton.Size = new System.Drawing.Size(75, 60);
+            this.Nuevobutton.Size = new System.Drawing.Size(75, 56);
             this.Nuevobutton.TabIndex = 13;
             this.Nuevobutton.Text = "Nuevo";
             this.Nuevobutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -234,7 +234,7 @@
             // 
             this.Guardarbutton.Image = global::Proyectos_Final.Properties.Resources.guardar_img;
             this.Guardarbutton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Guardarbutton.Location = new System.Drawing.Point(369, 58);
+            this.Guardarbutton.Location = new System.Drawing.Point(37, 278);
             this.Guardarbutton.Name = "Guardarbutton";
             this.Guardarbutton.Size = new System.Drawing.Size(75, 56);
             this.Guardarbutton.TabIndex = 12;
@@ -251,7 +251,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 278);
+            this.ClientSize = new System.Drawing.Size(380, 362);
             this.Controls.Add(this.Buscarbutton);
             this.Controls.Add(this.CodigonumericUpDown);
             this.Controls.Add(this.label7);

@@ -11,7 +11,7 @@ using System.Linq.Expressions;
 
 namespace Proyectos_Final.BLL
 {
-    class UsuariosBLL
+    public class UsuariosBLL
     {
         public static bool Guardar(Usuarios usuario)
         {
