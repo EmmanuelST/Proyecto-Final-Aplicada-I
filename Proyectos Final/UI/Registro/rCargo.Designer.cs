@@ -35,14 +35,16 @@
             this.Guardarbutton = new System.Windows.Forms.Button();
             this.Nuevobutton = new System.Windows.Forms.Button();
             this.Eliminarbutton = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Buscarbutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.IdCargonumericUpDown)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 35);
+            this.label1.Location = new System.Drawing.Point(6, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 0;
@@ -50,20 +52,20 @@
             // 
             // IdCargonumericUpDown
             // 
-            this.IdCargonumericUpDown.Location = new System.Drawing.Point(96, 34);
+            this.IdCargonumericUpDown.Location = new System.Drawing.Point(89, 22);
             this.IdCargonumericUpDown.Maximum = new decimal(new int[] {
             10,
             0,
             0,
             0});
             this.IdCargonumericUpDown.Name = "IdCargonumericUpDown";
-            this.IdCargonumericUpDown.Size = new System.Drawing.Size(186, 20);
+            this.IdCargonumericUpDown.Size = new System.Drawing.Size(134, 20);
             this.IdCargonumericUpDown.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 65);
+            this.label2.Location = new System.Drawing.Point(6, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 2;
@@ -71,65 +73,89 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(96, 64);
+            this.textBox1.Location = new System.Drawing.Point(89, 52);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(184, 20);
             this.textBox1.TabIndex = 3;
             // 
             // Guardarbutton
             // 
-            this.Guardarbutton.Location = new System.Drawing.Point(16, 122);
+            this.Guardarbutton.Image = global::Proyectos_Final.Properties.Resources.guardar_img;
+            this.Guardarbutton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Guardarbutton.Location = new System.Drawing.Point(9, 95);
             this.Guardarbutton.Name = "Guardarbutton";
-            this.Guardarbutton.Size = new System.Drawing.Size(75, 23);
+            this.Guardarbutton.Size = new System.Drawing.Size(75, 61);
             this.Guardarbutton.TabIndex = 4;
             this.Guardarbutton.Text = "Guardar";
+            this.Guardarbutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Guardarbutton.UseVisualStyleBackColor = true;
             // 
             // Nuevobutton
             // 
-            this.Nuevobutton.Location = new System.Drawing.Point(158, 122);
+            this.Nuevobutton.Image = global::Proyectos_Final.Properties.Resources.nuevo_img;
+            this.Nuevobutton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Nuevobutton.Location = new System.Drawing.Point(123, 95);
             this.Nuevobutton.Name = "Nuevobutton";
-            this.Nuevobutton.Size = new System.Drawing.Size(75, 23);
+            this.Nuevobutton.Size = new System.Drawing.Size(75, 61);
             this.Nuevobutton.TabIndex = 5;
             this.Nuevobutton.Text = "Nuevo";
+            this.Nuevobutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Nuevobutton.UseVisualStyleBackColor = true;
             // 
             // Eliminarbutton
             // 
-            this.Eliminarbutton.Location = new System.Drawing.Point(280, 122);
+            this.Eliminarbutton.Image = global::Proyectos_Final.Properties.Resources.borrar_img;
+            this.Eliminarbutton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Eliminarbutton.Location = new System.Drawing.Point(242, 95);
             this.Eliminarbutton.Name = "Eliminarbutton";
-            this.Eliminarbutton.Size = new System.Drawing.Size(75, 23);
+            this.Eliminarbutton.Size = new System.Drawing.Size(75, 61);
             this.Eliminarbutton.TabIndex = 6;
             this.Eliminarbutton.Text = "Eliminar";
+            this.Eliminarbutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Eliminarbutton.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.Buscarbutton);
+            this.groupBox1.Controls.Add(this.Eliminarbutton);
+            this.groupBox1.Controls.Add(this.Nuevobutton);
+            this.groupBox1.Controls.Add(this.Guardarbutton);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.IdCargonumericUpDown);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(10, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(348, 162);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Registro de cargo";
             // 
             // Buscarbutton
             // 
-            this.Buscarbutton.Location = new System.Drawing.Point(288, 34);
+            this.Buscarbutton.Image = global::Proyectos_Final.Properties.Resources.xmag_search_find_export_locate_5984;
+            this.Buscarbutton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.Buscarbutton.Location = new System.Drawing.Point(229, 12);
             this.Buscarbutton.Name = "Buscarbutton";
-            this.Buscarbutton.Size = new System.Drawing.Size(75, 23);
-            this.Buscarbutton.TabIndex = 7;
+            this.Buscarbutton.Size = new System.Drawing.Size(67, 36);
+            this.Buscarbutton.TabIndex = 8;
             this.Buscarbutton.Text = "Buscar";
+            this.Buscarbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Buscarbutton.UseVisualStyleBackColor = true;
+            this.Buscarbutton.Click += new System.EventHandler(this.Buscarbutton_Click);
             // 
             // rCargo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(367, 253);
-            this.Controls.Add(this.Buscarbutton);
-            this.Controls.Add(this.Eliminarbutton);
-            this.Controls.Add(this.Nuevobutton);
-            this.Controls.Add(this.Guardarbutton);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.IdCargonumericUpDown);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(366, 183);
+            this.Controls.Add(this.groupBox1);
             this.Name = "rCargo";
             this.Text = "rCargo";
             ((System.ComponentModel.ISupportInitialize)(this.IdCargonumericUpDown)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -142,6 +168,7 @@
         private System.Windows.Forms.Button Guardarbutton;
         private System.Windows.Forms.Button Nuevobutton;
         private System.Windows.Forms.Button Eliminarbutton;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button Buscarbutton;
     }
 }
