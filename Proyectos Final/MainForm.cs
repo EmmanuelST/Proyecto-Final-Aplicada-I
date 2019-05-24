@@ -50,5 +50,12 @@ namespace Proyectos_Final
             cUsuarios.MdiParent = this;
             cUsuarios.Show();
         }
+
+        private void ConsultarCargosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cCargos cCargos = new cCargos();
+            cCargos.MdiParent = this;
+            cCargos.Show();
+        }
     }
 }

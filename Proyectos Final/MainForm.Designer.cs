@@ -61,14 +61,14 @@
             // clienteToolStripMenuItem
             // 
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.clienteToolStripMenuItem.Text = "&Usuario";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.ClienteToolStripMenuItem_Click);
             // 
             // cargoToolStripMenuItem
             // 
             this.cargoToolStripMenuItem.Name = "cargoToolStripMenuItem";
-            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.cargoToolStripMenuItem.Text = "&Cargo";
             this.cargoToolStripMenuItem.Click += new System.EventHandler(this.CargoToolStripMenuItem_Click);
             // 
@@ -93,6 +93,7 @@
             this.consultarCargosToolStripMenuItem.Name = "consultarCargosToolStripMenuItem";
             this.consultarCargosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultarCargosToolStripMenuItem.Text = "Consultar &Cargos";
+            this.consultarCargosToolStripMenuItem.Click += new System.EventHandler(this.ConsultarCargosToolStripMenuItem_Click);
             // 
             // MainForm
             // 
