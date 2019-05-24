@@ -1,4 +1,5 @@
 ﻿using Proyectos_Final.UI;
+using Proyectos_Final.UI.Consultas;
 using Proyectos_Final.UI.Registro;
 using System;
 using System.Collections.Generic;
@@ -41,6 +42,13 @@ namespace Proyectos_Final
             rCargo rCargo = new rCargo();
             rCargo.MdiParent = this;
             rCargo.Show();
+        }
+
+        private void CosultarUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cUsuarios cUsuarios = new cUsuarios();
+            cUsuarios.MdiParent = this;
+            cUsuarios.Show();
         }
     }
 }

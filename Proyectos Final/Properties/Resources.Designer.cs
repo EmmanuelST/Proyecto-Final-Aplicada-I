@@ -83,6 +83,26 @@ namespace Proyectos_Final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap busqueda_pequeña {
+            get {
+                object obj = ResourceManager.GetObject("busqueda_pequeña", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap busqueda_pequeña2 {
+            get {
+                object obj = ResourceManager.GetObject("busqueda_pequeña2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap guardar_img {
             get {
                 object obj = ResourceManager.GetObject("guardar_img", resourceCulture);

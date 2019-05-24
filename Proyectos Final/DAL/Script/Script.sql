@@ -13,4 +13,10 @@ create table Usuarios
 	Clave varchar(50),
 	FechaIngreso DateTIme
 )
+go
+create table Cargos
+(
+	CargoId int primary key identity,
+	Descripcion varchar(50) not null
+)
 

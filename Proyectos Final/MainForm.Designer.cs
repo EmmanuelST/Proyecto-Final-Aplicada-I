@@ -32,16 +32,20 @@
             this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cargoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cosultarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarCargosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registroToolStripMenuItem});
+            this.registroToolStripMenuItem,
+            this.consultasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(862, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,16 +72,39 @@
             this.cargoToolStripMenuItem.Text = "&Cargo";
             this.cargoToolStripMenuItem.Click += new System.EventHandler(this.CargoToolStripMenuItem_Click);
             // 
+            // consultasToolStripMenuItem
+            // 
+            this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cosultarUsuariosToolStripMenuItem,
+            this.consultarCargosToolStripMenuItem});
+            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.consultasToolStripMenuItem.Text = "&Consultas";
+            // 
+            // cosultarUsuariosToolStripMenuItem
+            // 
+            this.cosultarUsuariosToolStripMenuItem.Name = "cosultarUsuariosToolStripMenuItem";
+            this.cosultarUsuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cosultarUsuariosToolStripMenuItem.Text = "Cosultar &Usuarios";
+            this.cosultarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.CosultarUsuariosToolStripMenuItem_Click);
+            // 
+            // consultarCargosToolStripMenuItem
+            // 
+            this.consultarCargosToolStripMenuItem.Name = "consultarCargosToolStripMenuItem";
+            this.consultarCargosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultarCargosToolStripMenuItem.Text = "Consultar &Cargos";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(862, 450);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -92,6 +119,9 @@
         private System.Windows.Forms.ToolStripMenuItem registroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cargoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cosultarUsuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarCargosToolStripMenuItem;
     }
 }
 
