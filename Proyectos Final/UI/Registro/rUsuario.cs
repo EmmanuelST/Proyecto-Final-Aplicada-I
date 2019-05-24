@@ -12,31 +12,11 @@ using Proyectos_Final.BLL;
 
 namespace Proyectos_Final.UI
 {
-    public partial class frmRegistroUsuario : Form
+    public partial class rUsuario : Form
     {
-        public frmRegistroUsuario()
+        public rUsuario()
         {
             InitializeComponent();
-        }
-
-        private void Label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void EmailtextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmRegistroUsuario_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ClavetextBox_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void Nuevobutton_Click(object sender, EventArgs e)
@@ -54,7 +34,7 @@ namespace Proyectos_Final.UI
             ClavetextBox.Text = string.Empty;
             FechaIngresodateTimePicker.Value = DateTime.Now;
             errorProvider.Clear();
-                        
+
         }
 
         private Usuarios LlenarClase()
@@ -113,26 +93,26 @@ namespace Proyectos_Final.UI
 
             if (string.IsNullOrWhiteSpace(NombretextBox.Text))
             {
-                errorProvider.SetError(NombretextBox,"El campo Nombre no puede estar vacio");
+                errorProvider.SetError(NombretextBox, "El campo Nombre no puede estar vacio");
                 paso = false;
             }
 
-            if(string.IsNullOrWhiteSpace(EmailtextBox.Text))
+            if (string.IsNullOrWhiteSpace(EmailtextBox.Text))
             {
-                errorProvider.SetError(EmailtextBox,"El campo de Email no puede estar vacio");
+                errorProvider.SetError(EmailtextBox, "El campo de Email no puede estar vacio");
                 paso = false;
             }
 
-            if(string.IsNullOrWhiteSpace(UsuariotextBox.Text))
+            if (string.IsNullOrWhiteSpace(UsuariotextBox.Text))
             {
                 errorProvider.SetError(UsuariotextBox, "El campo de Usuario no puede estar vacio");
                 paso = false;
 
             }
 
-            if(string.IsNullOrWhiteSpace(ClavetextBox.Text))
+            if (string.IsNullOrWhiteSpace(ClavetextBox.Text))
             {
-                errorProvider.SetError(ClavetextBox,"El Campo de Clave no puede estar vacio");
+                errorProvider.SetError(ClavetextBox, "El Campo de Clave no puede estar vacio");
                 paso = false;
             }
 
@@ -194,8 +174,21 @@ namespace Proyectos_Final.UI
 
             }
             else
-                errorProvider.SetError(CodigonumericUpDown,"No se puede eliminar este Usuario");
-            
+                errorProvider.SetError(CodigonumericUpDown, "No se puede eliminar este Usuario");
+
+        }
+
+        private void Eliminarbutton_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Buscarbutton_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
+
+        
+    
 }

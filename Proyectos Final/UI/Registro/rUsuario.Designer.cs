@@ -1,6 +1,6 @@
 ﻿namespace Proyectos_Final.UI
 {
-    partial class frmRegistroUsuario
+    partial class rUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistroUsuario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rUsuario));
             this.label1 = new System.Windows.Forms.Label();
             this.NombretextBox = new System.Windows.Forms.TextBox();
             this.EmailtextBox = new System.Windows.Forms.TextBox();
@@ -76,7 +76,6 @@
             this.EmailtextBox.Name = "EmailtextBox";
             this.EmailtextBox.Size = new System.Drawing.Size(255, 20);
             this.EmailtextBox.TabIndex = 3;
-            this.EmailtextBox.TextChanged += new System.EventHandler(this.EmailtextBox_TextChanged);
             // 
             // label2
             // 
@@ -95,7 +94,6 @@
             this.label3.Size = new System.Drawing.Size(85, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Nivel de Usuario";
-            this.label3.Click += new System.EventHandler(this.Label3_Click);
             // 
             // NivelUsuarionumericUpDown
             // 
@@ -141,7 +139,6 @@
             this.ClavetextBox.Name = "ClavetextBox";
             this.ClavetextBox.Size = new System.Drawing.Size(255, 20);
             this.ClavetextBox.TabIndex = 9;
-            this.ClavetextBox.TextChanged += new System.EventHandler(this.ClavetextBox_TextChanged);
             // 
             // label5
             // 
@@ -202,7 +199,7 @@
             this.Buscarbutton.Text = "Buscar";
             this.Buscarbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Buscarbutton.UseVisualStyleBackColor = true;
-            this.Buscarbutton.Click += new System.EventHandler(this.Buscarbutton_Click);
+            this.Buscarbutton.Click += new System.EventHandler(this.Buscarbutton_Click_1);
             // 
             // Eliminarbutton
             // 
@@ -215,7 +212,7 @@
             this.Eliminarbutton.Text = "Eliminar";
             this.Eliminarbutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Eliminarbutton.UseVisualStyleBackColor = true;
-            this.Eliminarbutton.Click += new System.EventHandler(this.Eliminarbutton_Click);
+            this.Eliminarbutton.Click += new System.EventHandler(this.Eliminarbutton_Click_1);
             // 
             // Nuevobutton
             // 
@@ -228,7 +225,6 @@
             this.Nuevobutton.Text = "Nuevo";
             this.Nuevobutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Nuevobutton.UseVisualStyleBackColor = true;
-            this.Nuevobutton.Click += new System.EventHandler(this.Nuevobutton_Click);
             // 
             // Guardarbutton
             // 
@@ -241,13 +237,12 @@
             this.Guardarbutton.Text = "Guardar";
             this.Guardarbutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Guardarbutton.UseVisualStyleBackColor = true;
-            this.Guardarbutton.Click += new System.EventHandler(this.Guardarbutton_Click);
             // 
             // errorProvider
             // 
             this.errorProvider.ContainerControl = this;
             // 
-            // frmRegistroUsuario
+            // rUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -271,9 +266,8 @@
             this.Controls.Add(this.NombretextBox);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmRegistroUsuario";
+            this.Name = "rUsuario";
             this.Text = "Registro de Usuario";
-            this.Load += new System.EventHandler(this.FrmRegistroUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.NivelUsuarionumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CodigonumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();

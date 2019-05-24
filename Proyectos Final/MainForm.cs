@@ -1,4 +1,5 @@
 ﻿using Proyectos_Final.UI;
+using Proyectos_Final.UI.Registro;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,7 +26,7 @@ namespace Proyectos_Final
 
         private void ClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmRegistroUsuario frmRegistroUsuario = new frmRegistroUsuario();
+            rUsuario frmRegistroUsuario = new rUsuario();
             frmRegistroUsuario.MdiParent = this;
             frmRegistroUsuario.Show();
         }
@@ -33,6 +34,13 @@ namespace Proyectos_Final
         private void MainForm_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void CargoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rCargo rCargo = new rCargo();
+            rCargo.MdiParent = this;
+            rCargo.Show();
         }
     }
 }
