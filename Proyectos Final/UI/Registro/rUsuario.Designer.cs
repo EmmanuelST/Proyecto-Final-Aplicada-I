@@ -225,6 +225,7 @@
             this.Nuevobutton.Text = "Nuevo";
             this.Nuevobutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Nuevobutton.UseVisualStyleBackColor = true;
+            this.Nuevobutton.Click += new System.EventHandler(this.Nuevobutton_Click_1);
             // 
             // Guardarbutton
             // 
@@ -237,6 +238,7 @@
             this.Guardarbutton.Text = "Guardar";
             this.Guardarbutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Guardarbutton.UseVisualStyleBackColor = true;
+            this.Guardarbutton.Click += new System.EventHandler(this.Guardarbutton_Click_1);
             // 
             // errorProvider
             // 

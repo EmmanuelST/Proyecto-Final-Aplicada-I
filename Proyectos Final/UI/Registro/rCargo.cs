@@ -80,7 +80,7 @@ namespace Proyectos_Final.UI.Registro
             Cargos cargo = new Cargos();
 
             cargo.CargoId = (int)IdCargonumericUpDown.Value;
-            cargo.Descripción = DescripciontextBox.Text;
+            cargo.Descripcion = DescripciontextBox.Text;
 
             return cargo;
         }
@@ -88,7 +88,7 @@ namespace Proyectos_Final.UI.Registro
         private void LlenarCampos(Cargos cargo)
         {
             IdCargonumericUpDown.Value = cargo.CargoId;
-            DescripciontextBox.Text = cargo.Descripción;
+            DescripciontextBox.Text = cargo.Descripcion;
         }
 
         private bool Validar()

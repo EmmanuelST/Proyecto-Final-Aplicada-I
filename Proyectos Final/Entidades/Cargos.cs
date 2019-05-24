@@ -12,18 +12,18 @@ namespace Proyectos_Final.Entidades
 
         [Key]
         public int CargoId { get; set; }
-        public string Descripción { get; set; }
+        public string Descripcion { get; set; }
 
         public Cargos()
         {
             CargoId = 0;
-            Descripción = string.Empty;
+            Descripcion = string.Empty;
         }
 
         public Cargos(int id,string descripción)
         {
             this.CargoId = id;
-            this.Descripción = descripción;
+            this.Descripcion = descripción;
         }
     }
 }
