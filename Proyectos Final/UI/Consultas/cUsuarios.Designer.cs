@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cUsuarios));
             this.label1 = new System.Windows.Forms.Label();
             this.DesdedateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.HastadateTimePicker = new System.Windows.Forms.DateTimePicker();
@@ -150,6 +151,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DesdedateTimePicker);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "cUsuarios";
             this.Text = "cUsuarios";
             ((System.ComponentModel.ISupportInitialize)(this.ConsultadataGridView)).EndInit();
